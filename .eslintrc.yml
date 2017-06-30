@@ -1,0 +1,15 @@
+
+extends: standard
+plugins:
+  - standard
+  - promise
+globals:
+  describe: false
+  it: false
+  beforeEach: false
+  afterEach: false
+  beforeAll: false
+  afterAll: false
+rules:
+  no-console:
+    - error

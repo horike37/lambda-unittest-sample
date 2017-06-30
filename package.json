@@ -1,0 +1,27 @@
+{
+  "name": "lambda-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "istanbul cover -x 'handler.test.js' node_modules/mocha/bin/_mocha 'handler.test.js' -- -R spec --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.78.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "chai": "^4.0.2",
+    "istanbul": "^0.4.5",
+    "chai-as-promised": "^7.0.0",
+    "mocha": "^3.4.2",
+    "proxyquire": "^1.8.0",
+    "sinon": "^2.3.5"
+  }
+}
